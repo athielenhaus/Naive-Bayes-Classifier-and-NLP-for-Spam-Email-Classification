@@ -42,7 +42,7 @@ Accuracy: 0.9695
 |                    | Actual Spam | Actual Ham |
 |--------------------|:---------------:|:---------------:|
 | **Predicted Spam** |       501        |       9        |
-| **Predicted Negative** |       44        |       1185        |  
+| **Predicted Ham** |       44        |       1185        |  
 
  In this scenario the discrepancy betweeng false negatives and false positives is similar, although the overall accuracy is slightly better
  
