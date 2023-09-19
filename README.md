@@ -28,10 +28,10 @@ __Scenario 1:__
 removal of all stop words  
 Accuracy: 0.9643  
 
-|                    | Actual Positive | Actual Negative |
+|                    | Actual Spam | Actual Ham |
 |--------------------|:---------------:|:---------------:|
-| **Predicted Positive** |       496        |       13        |
-| **Predicted Negative** |       49        |       1181        |  
+| **Predicted Spam** |       496        |       13        |
+| **Predicted Ham** |       49        |       1181        |  
 
 In this scenario there are significantly more false negatives than false positives.
  
@@ -39,9 +39,9 @@ __Scenario 2:__
 inclusion of all stop words  
 Accuracy: 0.9695  
 
-|                    | Actual Positive | Actual Negative |
+|                    | Actual Spam | Actual Ham |
 |--------------------|:---------------:|:---------------:|
-| **Predicted Positive** |       501        |       9        |
+| **Predicted Spam** |       501        |       9        |
 | **Predicted Negative** |       44        |       1185        |  
 
  In this scenario the discrepancy betweeng false negatives and false positives is similar, although the overall accuracy is slightly better
@@ -50,10 +50,10 @@ __Scenario 3:__
 Stemming of stop words followed by removal (this caused some stop words to be removed and others to remain)  
 Accuracy: 0.9718  
 
-|                    | Actual Positive | Actual Negative |
+|                    | Actual Spam | Actual Ham |
 |--------------------|:---------------:|:---------------:|
-| **Predicted Positive** |       525        |       29        |
-| **Predicted Negative** |       20        |       1165        |  
+| **Predicted Spam** |       525        |       29        |
+| **Predicted Ham** |       20        |       1165        |  
 
 In this scenario we see an additional improvement in accuracy and more balance in the number of false negatives and false positives.
 
