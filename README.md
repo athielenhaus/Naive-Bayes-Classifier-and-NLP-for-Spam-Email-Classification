@@ -18,8 +18,7 @@ After importing the data into a dataframe with two columns ('email_body', 'categ
 - stem words
 
 
-
-### Classification with CountVectorizer
+### Classification
 
 For classification, we experiment with the Bernoulli- and the Multinomial Naive Bayes Classifiers from the Scikit Learn library. The Multinomial NB Classifier consistently outperformed the Bernouilli NB Classifier.
 
